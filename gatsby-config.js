@@ -1,15 +1,14 @@
+const siteConfig = require("./site-config");
+
 module.exports = {
   __experimentalThemes: [
     {
-      resolve: "gatsby-theme-digital-garden",
-      options: {
-        notesPath: "/notes"
-      }
+      resolve: "gatsby-theme-digital-garden"
     },
     {
       resolve: "gatsby-theme-digital-garden-blog",
       options: {
-        postsPath: "/writing"
+        postsPath: siteConfig.navigation[0].path
       }
     }
     // {
@@ -21,11 +20,9 @@ module.exports = {
     // }
   ],
   siteMetadata: {
-    title: "Eka’s Personal Site",
-    email: "eka@eka.fyi",
-    social: {
-      twitter: "ekafyi",
-      github: "ekafyi"
-    }
+    title: siteConfig.siteTitle,
+    email: siteConfig.email,
+    social: siteConfig.social,
+    navigation: siteConfig.navigation
   }
 };
