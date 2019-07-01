@@ -8,12 +8,14 @@ module.exports = {
   navigation: [
     { name: "Writing", path: "/writing" },
     { name: "Notes", path: "/notes" },
+    { name: "Work", path: "/work" },
     { name: "About", path: "/about" }
   ],
   footer: {
     links: [
       { name: "Writing", path: "/writing" },
       { name: "Notes", path: "/notes" },
+      { name: "Work", path: "/work" },
       { name: "About", path: "/about" }
     ],
     copyright: "copyright 2019 etc etc"

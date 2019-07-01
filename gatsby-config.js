@@ -14,14 +14,14 @@ module.exports = {
         posts: "content/posts",
         postsPath: siteConfig.navigation[0].path
       }
+    },
+    {
+      resolve: "gatsby-theme-digital-garden-portfolio",
+      options: {
+        projects: "content/projects",
+        projectsPath: "/work"
+      }
     }
-    // {
-    //   resolve: "gatsby-theme-digital-garden-portfolio",
-    //   options: {
-    //     projectsPath: "/work",
-    //     projects: "projects"
-    //   }
-    // }
   ],
   siteMetadata: {
     title: siteConfig.siteTitle,
