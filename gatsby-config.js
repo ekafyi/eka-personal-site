@@ -3,11 +3,15 @@ const siteConfig = require("./site-config");
 module.exports = {
   __experimentalThemes: [
     {
-      resolve: "gatsby-theme-digital-garden"
+      resolve: "gatsby-theme-digital-garden",
+      options: {
+        notes: "content/notes"
+      }
     },
     {
       resolve: "gatsby-theme-digital-garden-blog",
       options: {
+        posts: "content/posts",
         postsPath: siteConfig.navigation[0].path
       }
     }
