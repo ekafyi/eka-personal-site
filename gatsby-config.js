@@ -2,6 +2,7 @@ const siteConfig = require("./site-config");
 
 module.exports = {
   __experimentalThemes: [
+    "gatsby-plugin-theme-ui",
     {
       resolve: "gatsby-theme-digital-garden",
       options: {
@@ -23,6 +24,11 @@ module.exports = {
       }
     }
   ],
+  // plugins: [
+  //   {
+  //     resolve: "gatsby-plugin-theme-ui"
+  //   }
+  // ],
   siteMetadata: {
     title: siteConfig.siteTitle,
     email: siteConfig.email,

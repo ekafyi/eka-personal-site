@@ -8,13 +8,14 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@mdx-js/react": "^1.0.21",
+    "@theme-ui/presets": "^0.2.1",
     "gatsby": "^2.11.6",
+    "gatsby-plugin-theme-ui": "^0.2.1",
     "gatsby-theme-digital-garden": "^0.0.31",
     "gatsby-theme-digital-garden-blog": "^0.0.31",
     "gatsby-theme-digital-garden-portfolio": "^0.0.31",
-    "gatsby-theme-ui": "^0.2.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "theme-ui": "^0.2.0"
+    "theme-ui": "^0.2.1"
   }
 }
